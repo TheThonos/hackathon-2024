@@ -1,0 +1,51 @@
+* {
+    background-color: #5D576B;
+    color: #9CD6E4;
+    font-family: Arial;
+    outline: none;
+    font-size: 16px;
+}
+
+body {
+    margin: 8px;
+}
+
+textarea {
+    border: 3px solid #9CD6E4;
+    border-radius: 10px;
+    resize: none;
+    width: calc(100% - 40px);
+    height: calc(50vh - 80px);
+    padding: 16px;
+}
+
+#result {
+    margin-top: 4px;
+}
+
+input, select {
+    color: #FD96A9;
+    border: 3px solid #FD96A9;
+    border-radius: 10px;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    cursor: pointer;
+}
+
+input {
+    border: 3px solid #FD96A9;
+    border-radius: 10px;
+    outline: none;
+}
+
+select {
+    appearance: none;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
